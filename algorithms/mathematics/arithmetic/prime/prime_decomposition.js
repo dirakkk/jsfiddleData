@@ -1,3 +1,4 @@
+(function () {
 var primeDecomposerModule = angular.module('primeDecomposerModule',[]);
 primeDecomposerModule.service('primeDecomposer', [ function () {
 
@@ -64,3 +65,4 @@ primeDecomposerModule.service('primeDecomposer', [ function () {
         return result;
     }
 }]);
+}) ();
